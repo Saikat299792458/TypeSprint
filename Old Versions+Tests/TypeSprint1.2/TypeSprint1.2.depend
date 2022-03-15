@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1594983035 source:g:\gnew\typesprint1.2\main.cpp
+	<windows.h>
+	"resource.h"
+	<bits/stdc++.h>
+
+1594983056 g:\gnew\typesprint1.2\resource.h
+

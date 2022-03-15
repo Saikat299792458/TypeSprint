@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1592567284 source:g:\gnew\typerace1\resource.rc
+	"resource.h"
+
+1592564117 g:\gnew\typerace1\resource.h
+
+1593515401 source:g:\gnew\typerace1\main.cpp
+	<windows.h>
+	"resource.h"
+	<iostream>
+

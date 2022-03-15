@@ -1,0 +1,47 @@
+#include"resource.h"
+#include"windows.h"
+ID_DLG DIALOG DISCARDABLE 100,50,200,80
+STYLE DS_CENTER|WS_POPUP|WS_SYSMENU|WS_CAPTION
+CAPTION "Results"
+FONT 20,"Times New Roman"
+{
+    LTEXT "",ST1,80,10,100,20
+    LTEXT "",ST2,65,30,100,20
+    PUSHBUTTON "&Retry(Enter)",ID_RETRY,20,50,60,20
+    PUSHBUTTON "&Main Menu(Esc)",ID_MM,120,50,60,20
+}
+ID_BG BITMAP "bg3.bmp"
+ID_START BITMAP "Start.bmp"
+ID_LOGO BITMAP "logo.bmp"
+ID_SETTINGS BITMAP "Settings.bmp"
+ID_HS BITMAP "HS.bmp"
+ID_INFO BITMAP "Info.bmp"
+ID_CB1 BITMAP "pre1.bmp"
+ID_CB2 BITMAP "post1.bmp"
+ID_BACK BITMAP "back.bmp"
+ID_ANNE BITMAP "anne.bmp"
+ID_ROBINS BITMAP "harold.bmp"
+ID_SHELDON BITMAP "sidney.bmp"
+ID_ICON ICON "logdemo.ico"
+ID_MOD BITMAP "icon2.bmp"
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION    1,2,0,0
+    PRODUCTVERSION 1,0,0,0
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "FileDescription",    "Windows Application\0"
+            VALUE "FileVersion",        "1.2.0.0\0"
+            VALUE "LegalCopyright",     "Copyright © 2020 Saikat1803005\0"
+            VALUE "OriginalFilename",   "TypeSprint.exe\0"
+            VALUE "ProductName",        "TypeSprint\0"
+            VALUE "ProductVersion",     "1.0.0.0\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 1200
+    }
+}

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1595594676 source:g:\gnew\typerace2\resource.rc
+	"resource.h"
+	"windows.h"
+
+1594807771 g:\gnew\typerace2\resource.h
+
+1595672057 source:g:\gnew\typerace2\main.cpp
+	<windows.h>
+	"resource.h"
+	<bits/stdc++.h>
+

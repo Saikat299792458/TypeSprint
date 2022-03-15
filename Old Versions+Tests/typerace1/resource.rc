@@ -1,0 +1,2 @@
+#include"resource.h"
+ID_MB BITMAP "MB.bmp"

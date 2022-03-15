@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1514140582 source:g:\gnew\typespeed\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1591962676 g:\gnew\typespeed\resource.h
+
+1594205569 source:g:\gnew\typespeed\main.cpp
+	<windows.h>
+	"resource.h"
+	<iostream>
+
