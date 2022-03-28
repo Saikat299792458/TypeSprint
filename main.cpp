@@ -1,4 +1,3 @@
-/*Copyright @Saikat299792458 aka Cetrion2020*/
 /**For some reason, if the value of rcd is set to true, the program glitches out like hell*/
 /**Ans:The boolean variable cannot be set to true.You can change it to true later on.*/
 /**Scrolling in single line mode is really inefficient and has no style*/
@@ -148,7 +147,7 @@ LRESULT CALLBACK infpro(HWND h,UINT u,WPARAM w,LPARAM l)
             down+=nc;
             TextOut(hg,0,down,"Product Category: CETRION-1",27);
             down+=nc;
-            TextOut(hg,0,down,"Copyright © 2020 Saikat1803005",30);
+            TextOut(hg,0,down,"Copyright Â© 2020 Saikat1803005",30);
             down+=nc;
             TextOut(hg,0,down,"saikatchakraborty4444@gmail.com",31);
             down+=nc;
